@@ -1,0 +1,31 @@
+{
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/your/path",
+    "rawQueryString": "dashboard=1523",
+    "headers": {
+        "content-type": "application/json"
+    },
+    "queryStringParameters": {
+        "dashboard": "1523"
+    },
+    "requestContext": {
+        "accountId": "123456789012",
+        "apiId": "api-id",
+        "domainName": "id.execute-api.us-east-1.amazonaws.com",
+        "domainPrefix": "id",
+        "http": {
+            "method": "GET",
+            "path": "/your/path",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "123.123.123.123",
+            "userAgent": "Custom User Agent String"
+        },
+        "requestId": "id",
+        "routeKey": "$default",
+        "stage": "dev",
+        "time": "12/Mar/2020:19:03:58 +0000",
+        "timeEpoch": 1583348638000
+    },
+    "isBase64Encoded": false
+}
